@@ -13,3 +13,10 @@ cd  target
 cmake ${CURPATH}  -DCMAKE_BUILD_TYPE=Release
 make
 
+if [[ ! -f cryptotest ]];then
+    echo "build cryptoo fail"
+    exit 1
+fi
+./cryptotest
+
+exit 0

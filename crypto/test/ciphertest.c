@@ -197,7 +197,7 @@ static void test_3des()
 
 void cipher_test()
 {
-    aes128_test();
     test_des();
     test_3des();
+    aes128_test();
 }
