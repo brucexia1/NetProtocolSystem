@@ -1,6 +1,7 @@
 #ifndef __AES_H__
 #define __AES_H__
 
+#define AES_LONG
 
 struct aes_key_st {
 # ifdef AES_LONG
